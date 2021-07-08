@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Netflix India - Watch TV Shows</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div
+      id="loader"
+      style="
+        background: rgb(255, 254, 254) url(gif_2.gif) no-repeat center center;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 9999999;
+      "
+    ></div>
+
+        <div class="firstsection">
+        <header>
+            <div class="logo"><img src="https://fontmeme.com/permalink/210619/effc125186322ecb09992e3f863308a2.png" alt="NETFLIX"></div>
+            <div class="lang_sign">
+            <div class="language"><select>
+                <option value="English">English</i></option>
+                <option value="Hindi">हिंदी</option>
+            </select></div>
+            <div class="sign-in"><input type="button" value="Sign In"></div></div>
+        </header>
+        
+        <main>
+            <div class="center1">
+                <h1>Unlimited movies, TV<br> shows and more.</h1>
+            </div>
+            <div class="center2">
+                <h2>Watch anywhere. Cancel anytime.</h2>
+            </div>
+            <div class="center3">
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+            </div>
+            <div class="email"><input type="email" id="email" placeholder="Email address">
+            <input type="button" id="button" value="Get Started >"></div>
+
+        </main>
+    </div>
+
+
+    <script>
+        var loader = document.getElementById("loader");
+        window.addEventListener("load", function () {
+          loader.style.display = "none";
+        });
+      </script>
+
+
+    </body>
+</html>

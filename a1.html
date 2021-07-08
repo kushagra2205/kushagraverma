@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animation</title>
+    <style>
+      .parent {
+        background-color: none;
+        position: absolute;
+        top: 220px;
+        left: 330px;
+        box-shadow: 8px 5px 20px teal;
+        width: 300px;
+        height: 300px;
+      }
+
+      .child {
+        position: absolute;
+        top: 110px;
+        left: 100px;
+        width: 100px;
+        height: 100px;
+        border: 3px solid teal;
+        background-color: none;
+
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+      }
+
+      #s0 {
+        animation-name: b0;
+      }
+
+      @keyframes b0 {
+        50% {
+          transform: rotate(180deg);
+          height: 2.5rem;
+          border-radius: 50%;
+        }
+      }
+
+      #s1 {
+        animation-name: b1;
+      }
+
+      @keyframes b1 {
+        50% {
+          transform: rotate(160deg);
+          height: 2.5rem;
+          border-radius: 50%;
+        }
+      }
+
+      #s2 {
+        animation-name: b2;
+      }
+
+      @keyframes b2 {
+        50% {
+          transform: rotate(140deg);
+          height: 2.5rem;
+          border-radius: 50%;
+        }
+      }
+
+      #s3 {
+        animation-name: b3;
+      }
+
+      @keyframes b3 {
+        50% {
+          transform: rotate(120deg);
+          height: 2.5rem;
+          border-radius: 50%;
+        }
+      }
+
+      #s4 {
+        animation-name: b4;
+      }
+
+      @keyframes b4 {
+        50% {
+          transform: rotate(100deg);
+          height: 2.5rem;
+          border-radius: 50%;
+        }
+      }
+
+      #s5 {
+        animation-name: b5;
+      }
+
+      @keyframes b5 {
+        50% {
+          transform: rotate(80deg);
+          height: 2.5rem;
+          border-radius: 50%;
+        }
+      }
+
+      #s6 {
+        animation-name: b6;
+      }
+
+      @keyframes b6 {
+        50% {
+          transform: rotate(60deg);
+          height: 2.5rem;
+          border-radius: 50%;
+        }
+      }
+
+      #s7 {
+        animation-name: b7;
+      }
+
+      @keyframes b7 {
+        50% {
+          transform: rotate(40deg);
+          height: 2.5rem;
+          border-radius: 50%;
+        }
+      }
+
+      p {
+        color: teal;
+        position: absolute;
+        top: 101px;
+        left: 143px;
+        text-shadow: 5px 5px 20px teal;
+      }
+
+      .lorem {
+        position: absolute;
+        top: 450px;
+      }
+
+      body {
+        background-color: rgb(4, 49, 49);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div
+      id="loader"
+      style="
+        background: rgb(255, 254, 254) url(gif_2.gif) no-repeat center center;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 9999999;
+      "
+    ></div>
+
+    <div class="parent">
+      <div class="child" id="s0"></div>
+      <div class="child" id="s1"></div>
+      <div class="child" id="s2"></div>
+      <div class="child" id="s3"></div>
+      <div class="child" id="s4"></div>
+      <div class="child" id="s5"></div>
+      <div class="child" id="s6"></div>
+      <div class="child" id="s7"></div>
+    </div>
+
+    <script>
+        var loader = document.getElementById("loader");
+        window.addEventListener("load", function () {
+          loader.style.display = "none";
+        });
+      </script>
+
+
+  </body>
+</html>

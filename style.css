@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%), url("background.jpg");
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.firstsection{
+}
+
+header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .logo{
+        width: 80%;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+    .logo img{
+        height: 65px;
+        width: 185px;
+        opacity: 2;
+    }
+    
+    .lang_sign {
+        width: 20%;
+        display: flex;
+    }
+    
+    .language{
+        margin-right: 30px;
+    }
+    
+    .language select{
+        padding: 7px 17px;
+        font-size: 15px;
+        color: white;
+        border: 0.01px solid white;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .language select option{
+        color: black;
+    }
+    
+    .sign-in input{
+        padding: 7px 17px;
+        font-size: 15px;
+        color: white;
+        background-color: red;
+        border: 2px solid red;
+        cursor: default;
+    }
+    
+    .sign-in input:hover{
+        cursor: wait;
+    }
+    
+    .center1{
+        display: flex;
+        color: white;
+        justify-content: center;
+        margin-top: 130px;
+        font-size: 33px;
+        align-items: center;
+        text-align: center;
+        font-style: bold;
+    }
+    
+    .center2{
+        display: flex;
+        color: white;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+        font-style: bold;
+    }
+    
+    .center3{
+        display: flex;
+        color: white;
+        justify-content: center;
+        margin-top: 25px;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+        font-style: bold;
+    }
+    
+    .email{
+    
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .email #email{
+        padding-left: 10px;
+        font-size: 18px;
+        width: 550px;
+        height: 70px;
+    }
+    
+    .email #button{
+        color: white;
+        background-color: red;
+        border: 2px solid red;
+        font-size: 30px;
+        width: 275px;
+        height: 74px;
+    }
+    
+}
+
